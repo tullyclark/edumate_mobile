@@ -1,0 +1,174 @@
+@media (max-width: 880px) {
+     body {
+        width:100% !important;
+    }
+     #tabBoxContent {
+        padding:0 !important;
+    }
+     .scrollerDivClass {
+        height: 100% !important;
+         margin-bottom: 10px;
+         padding:0 !important;
+    }
+     #markRoll_form div {
+        margin: 0 !important;
+    }
+     #markRoll_form div div strong {
+        margin-left: 3% !important;
+    }
+     .stdTable:not(.attendance_list) {
+        display: none;
+    }
+     #markRollStudentAbsent {
+        visibility: hidden;
+         margin: 0px;
+         padding: 0px;
+         height: 0px;
+    }
+     #operationBar{
+        background-color: #dcdddf !important;
+        position: fixed !important;
+         padding-bottom: 10px;
+    }
+     .operationBarHeading{
+        width: 100%;
+         padding: 0px;
+         padding-top: 10px;
+        color:#2B2E33;
+    }
+     #operationBarHeadingText{
+        display: inline-block;
+         text-align: center;
+         width: 100%;
+    }
+     .operationBarButtons .iconMouseOut, .iconMouseOver {
+        color:#2B2E33 !important;
+        ;
+         border-color: rgba(0,0,0,0) !important;
+    }
+     #operationBarPlaceholder {
+        height: 50px !important;
+    }
+     #markAllPresent{
+        width: 94% !important;
+         margin-left: 3% !important;
+         margin-right: 3% !important;
+         height: 50px;
+    }
+     #markRoll_form{
+        margin-top: 80px;
+    }
+     .selectedTab.tabButton {
+        visibility: hidden;
+         margin: 0px;
+         padding: 0px;
+         height: 0px;
+    }
+     .subMenu {
+        background-color: rgba(0,0,0,0) !important;
+         box-shadow: 0 0 0px 0 rgba(0, 0, 0, 0);
+         border: none !important;
+         max-height:500px;
+    }
+     .subMenuItem {
+         background-color: #FED98A !important;
+         border-color: #2B2E33 !important;
+         border-width: 1px !important;
+         border-radius: 4px;
+         margin-top: 10px;
+         margin-left: 100%;
+         margin-right: 10px;
+         color: #2B2E33 !important;
+         font-size: 120% !important;
+         line-height: 34px;
+         text-align: center;
+    }
+     input#_completed{
+        height: 60px;
+         width: 16px;
+         padding: 0 !important;
+         margin-left: 3%;
+    }
+     input#_completed:after {
+        content: "Mark as Complete";
+         display: block;
+         margin-left: 20px;
+         line-height: 60px;
+         width: 110px;
+         overflow: visible;
+    }
+     #markRollArea {
+        font-size:0;
+    }
+     .formInput {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         margin: 0 auto;
+         margin-top: 5px;
+         width:100% !important;
+    }
+     label {
+         visibility: hidden;
+         height: 0;
+         width: 0;
+    }
+     .formInput input{
+        width:100% !important;
+         height: 27px !important;
+         margin-bottom: 5px;
+         margin-right: 3%;
+         margin-left: 3%;
+    }
+     .formInput select{
+        width:100% !important;
+         height: 40px !important;
+         margin-bottom: 5px;
+         margin-right: 3%;
+         margin-left: 3%;
+    }
+     .operationBarButtons {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         margin: 0 auto;
+         margin-top: 5px;
+         width:100% !important;
+    }
+     .operationBarItem {
+        width: 100%;
+    }
+     .operationBarItem div {
+        width: 100%;
+    }
+     .opBarBtnLabel{
+        height: 40px !important;
+         display: inline-block;
+         width: 80%;
+         padding-top: 10px;
+    }
+     .contact_communication_checkbox {
+        display: none;
+    }
+     ._attend_status_select {
+         height: 40px;
+         width: 120px;
+         margin-top: 10px;
+    }
+     .Student {
+        width: 100% !important;
+         overflow: scroll;
+    }
+     #markRoll_form .attendance_list tr {
+        width: 100%;
+         float: left !important;
+    }
+     #markRoll_form .attendance_list tr .absent {
+        background-color: #CA322F;
+    }
+}
+ @media (max-width: 319px) {
+     .Image {
+        margin-left: 20%;
+    }
+}
